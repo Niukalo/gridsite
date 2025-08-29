@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  padding: 17.6px 35.2px;
+  background-color: #333;
+  color: white;
+}
+
+.header h1 {
+  font-size: 35.2px;
+  margin: 0.2em 0;
+}
+
+.header p {
+  max-width: 1000px;
+  margin: 0.2em 0 1em 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  border: gray 0.5px solid;
+  padding: 17.6px 35.2px;
+}
+
+.web-development,
+.section-digital {
+  background-color: #eaeaea;
+  color: #000;
+  padding: 50px 20px;
+}
+
+.web-development h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.two-columns {
+  display: flex;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.two-columns p {
+  flex: 1;
+  max-width: 450px;
+  line-height: 1.6;
+}
+
+.services {
+  border-radius: -1;
+  background-color: #333;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap; /* для адаптивності */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.card h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.section-digital h2 {
+  font-size: 26.4px;
+  margin-bottom: 30px;
+}
+.company-details {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.contact-us,
+.about-company {
+  flex: 1;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact-us {
+  border: none;
+  background-color: #2196f3;
+}
+
+.about-company {
+  background-color: #333;
+}
+
+.company-details h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+a[href^="mailto:"] {
+  border: none;
+  padding: 0;
+}
+
+.company-details p {
+  max-width: 600px;
+  margin: 0 auto 10px auto;
+  line-height: 1.6;
+}
+
+.site-footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 35.2px;
+  font-size: 17.6px;
+  background-color: #000;
+  color: #fff;
+}
+
+.site-footer a {
+  border: none;
+  color: #2196f3;
+}
+
+.site-footer a:hover {
+  text-decoration: none;
+}
+
+.footer-left,
+.footer-right {
+  flex: 1;
+  margin: 5px 0;
+}
