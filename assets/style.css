@@ -18,7 +18,6 @@ body {
   .card {
   display: flex;
   width: 400px;
-  
   align-items: center;
   padding: 20px;
   border-radius: 5px;
@@ -41,6 +40,11 @@ body {
 .info h2 {
   margin: 0 0 5px 0;
   font-size: 20px;
+  font-weight: normal;
+}
+
+.info h2 .first-name {
+  font-weight: bold; 
 }
 
 .info p {
